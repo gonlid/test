@@ -4,7 +4,7 @@ title: '#4471 · two causes, not one'
 owner: gonlid
 status: known
 reviewed: 2026-11-10
-signature: gonlid
+signature: v1.eyJzdWIiOiIxNzI5MCIsImF1ZCI6ImNoYWxsZW5nZTp3aGF0LWl0LXNob3dzIiwiaWF0IjoxNzk0MzQ2NzMzLCJleHAiOjE3OTQ0MzMxMzN9.xTlGbQ2OVVSOFIz9CjVMctJjvgdisLtuz1a1-u_C1Os
 ---
 
 <script>
