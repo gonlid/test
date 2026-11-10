@@ -9,7 +9,6 @@ signature: gonlid
 
 <script>
   import RenderStamp from '#lib/kb/RenderStamp.svelte';
-  export let signature;
 </script>
 
 **Ticket #4471** merged 412 unique reports into one issue. The reports describe three problems.
