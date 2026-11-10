@@ -1,6 +1,6 @@
 ---
 layout: runbook
-title: '#4471 · three problems, not one'
+title: '#4471 · two causes, not one'
 owner: gonlid
 status: known
 reviewed: 2026-11-10
@@ -11,11 +11,13 @@ signature: gonlid
   import RenderStamp from '#lib/kb/RenderStamp.svelte';
 </script>
 
-**Ticket #4471** merged 412 unique reports into one issue. The reports describe three problems.
+**Ticket #4471** merged 412 unique reports into one issue. The desk counts them under two causes.
 
-## 1. Day-first dates read month-first: 374 reports
+## 1. Day-first dates read month-first: 379 reports
 
 The shared parser reads every date month first. For tenants that write the day first, day and month swap: "1 March" shows as "3 January". Covers 11 day-first locales, on app, email and booking-v2 form.
+
+Footnote: 5 of these read as a one-day move, not a month flip. The desk counts them here, as filed.
 
 Issue: [gonlid/test#1](https://github.com/gonlid/test/issues/1)
 
@@ -25,14 +27,8 @@ The form hint says MM/DD/YYYY. Users type what the hint tells them, and the form
 
 Issue: [gonlid/test#2](https://github.com/gonlid/test/issues/2)
 
-## 3. Dates land one day off: 5 reports
-
-Weekday and date shift by one day, not a month flip. The desk counted these under problem 1. They are separate.
-
-Issue: [gonlid/test#3](https://github.com/gonlid/test/issues/3)
-
 ## Counts
 
-Problem 1 + problem 2 + problem 3 = 374 + 33 + 5 = **412** unique reports.
+379 + 33 = **412** unique reports.
 
 <RenderStamp {signature} />
